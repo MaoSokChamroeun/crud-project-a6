@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    max-width: 1440px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    flex-direction: column;
+ 
+   
+}
+h1{
+    color: white;
+}
+.preview-image{
+    display: none;
+     width: 135px;
+     height: 135px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -135px;
+    border-radius: 10px;
+}
+
+.form-control{
+    padding: 20px;
+    display: flex;
+  
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 900px;
+    height: 100vh;
+    background-image: url("https://img.freepik.com/premium-photo/abstract-dark-background-with-white-glowing-lines-dots-forming-geometric-pattern_1174990-200085.jpg?semt=ais_hybrid&w=740");
+    background-size: contain;
+    background-color: gray;
+}
+.form-admin{
+    display: flex;
+    width: 80%;
+    margin-top: 10px;
+    flex-direction: column;
+    gap: 10px;
+    background: rgba(255, 255, 255, 0.1); /* semi-transparent background */
+    border-radius: 16px;
+    padding: 20px;
+    backdrop-filter: blur(10px); /* frosted glass effect */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+.input-field{
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    border-radius: 5px;
+}
+label{
+    font-weight: 600;
+    color: white;
+}
+.box-image{
+    width: 135px;
+    height: 135px;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/017/756/694/non_2x/gallery-icon-simple-design-vector.jpg');
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-top: 10px;
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.input-img{
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.btn-submit{
+    width: 100px;
+    margin-top: 20px;
+    padding: 15px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.1); /* semi-transparent background */
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 20px;
+    backdrop-filter: blur(10px); /* frosted glass effect */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: white;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.status{
+    background: transparent;
+    border: 2px solid white;
+    padding: 10px;
+    color: white;
+}
+.status-option{
+    background: transparent;
+    border: 2px solid white;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+}
+.txt-msg{
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+.table{
+  
+    width: 1640px;
+    margin:50px auto ;
+    background-image: url("https://img.freepik.com/premium-photo/abstract-dark-background-with-white-glowing-lines-dots-forming-geometric-pattern_1174990-200085.jpg?semt=ais_hybrid&w=740");
+    background-size: cover;
+}
+/* .table table{
+    width: 100%;
+}
+th{
+    padding: 10px;
+    color: white;
+}
+td{
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.fa-edit{
+    color: white;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.fa-trash{
+  
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: white;
+} */

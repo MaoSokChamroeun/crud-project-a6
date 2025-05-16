@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+/* 
+.container{
+    max-width: 1640px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+} */
+ h1{
+    text-align: center;
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+ }
+.table table{
+    width: 100%;
+}
+th{
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-family: 'Poppins' , sans-serif;
+}
+td{
+    text-align: center;
+    padding: 5px 20px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-family: 'Poppins' , sans-serif;
+}
+
+.fa-edit{
+    color: rgb(0, 194, 48);
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.fa-trash{
+  
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: rgb(255, 0, 0);
+}
