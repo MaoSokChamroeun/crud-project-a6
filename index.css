@@ -128,6 +128,13 @@ label{
     background-image: url("https://img.freepik.com/premium-photo/abstract-dark-background-with-white-glowing-lines-dots-forming-geometric-pattern_1174990-200085.jpg?semt=ais_hybrid&w=740");
     background-size: cover;
 }
+
+.btn_table{
+    margin-top: 30px;
+    color: white;
+    background-color: blue;
+}
+
 /* .table table{
     width: 100%;
 }

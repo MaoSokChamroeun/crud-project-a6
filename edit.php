@@ -1,14 +1,5 @@
 <?php 
-$servername = "localhost";
-$username = "root";
-$pass = "";
-$dbname = "crud";
-
-$conn = new mysqli($servername, $username, $pass, $dbname);
-
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
+include 'patail/conect.php';
 // echo "Connection Successful"; // Avoid echo if using header() later
 
 $edit_data = null;

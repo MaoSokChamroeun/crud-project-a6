@@ -1,5 +1,5 @@
 <?php 
-    include 'connection.php';
+    include 'patail/conect.php';
 ?>
 
 <!DOCTYPE html>
@@ -58,7 +58,7 @@
     $conn->close();
     ?>
   </table>
-
+         <a href="index.php">Back Home</a>
     </div>
 </body>
 </html>
